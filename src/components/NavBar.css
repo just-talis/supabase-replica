@@ -1,25 +1,31 @@
- .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-} 
- 
-.nav ul {
-    display: flex;
-    gap: 30px;
-    list-style-type: none;
-    color: #fff;
-} 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
 
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  color: #fff;
+}
+
+.div {
+  display: flex;
+}
 
 .star-btn {
-    background: transparent;
-    color: #fff;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 img {
-    padding: 20px;
-    width: 15%;
-    object-fit: cover;
-    height: 10%;
-  }
+  padding: 20px;
+  width: 15%;
+  object-fit: cover;
+  height: 10%;
+}
