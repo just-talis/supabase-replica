@@ -14,12 +14,12 @@ export const NavBar = () => {
       <div className="flex w-full justify-between items-center">
         <div>
           <ul className="flex gap-8 text-white">
-            <li className="cursor-pointer hover:text-emerald-500">Products</li>
-            <li className="cursor-pointer hover:text-emerald-500">
+            <li className="cursor-pointer hover:text-emerald-500 py-4">Products</li>
+            <li className="cursor-pointer hover:text-emerald-500 py-4">
               Developers
             </li>
-            <li className="cursor-pointer hover:text-emerald-500">Pricing</li>
-            <li className="cursor-pointer hover:text-emerald-500">Blog</li>
+            <li className="cursor-pointer hover:text-emerald-500 border-b-2 pb-3.5 pt-4 border-transparent hover:border-emerald-500">Pricing</li>
+            <li className="cursor-pointer hover:text-emerald-500 border-b-2 pb-3.5 pt-4 border-transparent hover:border-emerald-500">Blog</li>
           </ul>
         </div>
         <div className="flex gap-8 items-center">
