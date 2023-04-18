@@ -3,7 +3,7 @@ import logo from '../assets/images/supabase-logo-wordmark--dark.webp';
 
 export const NavBar = () => {
   return (
-    <nav className="flex gap-8 items-center px-20 py-10">
+    <nav className="flex gap-8 items-center px-20 border-b border-zinc-500/20">
       <div className="h-6 w-max">
         <img
           src={logo}
