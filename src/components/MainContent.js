@@ -16,14 +16,27 @@ const MainContent = () => {
           Functions, Realtime subscriptions, and Storage.
         </p>
       </div>
-      <div className="w-full h-1/2">
-         <iframe
-      title="Demo video showcasing Supabase"
-      src="https://www.youtube-nocookie.com/embed/dBOSUER_5T4?playlist=dBOSUER_5T4&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;modestbranding=1&amp;rel=0&amp;disablekb=1&amp;mute=1&amp;muted=1"
-      style={{top:0, right:0}}
-      frameborder="0"
-      allow="autoplay; modestbranding; encrypted-media"
-    ></iframe>
+      <div className="mt-16 flex content-center sm:mt-24 lg:absolute lg:-right-80 lg:col-span-6 lg:mt-0 lg:w-9/12 xl:relative xl:right-0 xl:w-full ">
+        <div className="relative flex w-full flex-col items-center justify-center rounded-md">
+          <div className="flex h-5 w-full items-center justify-start rounded-t-md px-2">
+            <div className="mr-2 h-2 w-2 rounded-full"></div>
+            <div className="mr-2 h-2 w-2 rounded-full"></div>
+            <div className="mr-2 h-2 w-2 rounded-full"></div>
+          </div>
+          <div
+            className="relative rounded-b-md w-full shadow-lg"
+            style={{ padding: "56.25% 0 0 0" }}
+          >
+            <iframe
+              className="absolute rounded-b-md w-full h-full"
+              title="Demo video showcasing Supabase"
+              src="https://www.youtube-nocookie.com/embed/dBOSUER_5T4?playlist=dBOSUER_5T4&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;modestbranding=1&amp;rel=0&amp;disablekb=1&amp;mute=1&amp;muted=1"
+              style={{ top: 0, left: 0 }}
+              frameborder="0"
+              allow="autoplay; modestbranding; encrypted-media"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );
